@@ -1,109 +1,151 @@
-# Flappy Bird Clone (Unity)
+# 🐤 Flappy Bird Clone
 
-> **Created on:** **26 May 2024** 🐣
+> **Created on:** **26 May 2024** 🐣  
 > *The project that marked the beginning of my game development journey.*
 
-A recreation of the classic **Flappy Bird** game built with **Unity**. This was my very first game development project, created on **26 May 2024** as I began learning Unity and C#.
+A recreation of the classic **Flappy Bird** game developed in **Unity**. This was the very first game I built after starting my journey into game development. While simple, it laid the foundation for everything I learned afterward—from gameplay programming to Unity fundamentals.
 
-Although simple by today's standards, this project represents an important milestone in my journey. It introduced me to the fundamentals of game development, including 2D physics, collision detection, obstacle spawning, score systems, UI management, and game state handling.
-
-I've revisited and documented this project as part of my portfolio to preserve the project that started everything while reflecting how far I've come as a developer.
-
-> **Note**
-> This repository contains only the **C# scripts** and **gameplay screenshots**. The complete Unity project and assets are not included.
+Today, I've revisited this project to preserve it as part of my portfolio while keeping the original spirit of the game intact.
 
 ---
 
-## 🎮 Play the Game
+## 🌐 Live Demo
 
-**Play in your browser:**
+🎮 **Play the Game**  
 https://abikarthick.itch.io/flappy-bird
+
+👨‍💻 **Portfolio**  
+https://abikarthickgdev.github.io/GAMEDEV_PORTFOLIO/
 
 ---
 
 ## ✨ Features
 
-* Classic Flappy Bird gameplay
-* Responsive bird movement using Unity Physics
-* Random obstacle spawning
-* Score tracking system
-* Collision detection
-* Game Over screen
-* Restart functionality
-* Simple and clean UI
-* Beginner-friendly C# architecture
+- Classic Flappy Bird gameplay
+- Responsive bird movement using Unity Physics
+- Infinite randomly generated pipes
+- Score tracking system
+- Collision detection
+- Game Over screen
+- Restart functionality
+- Smooth scrolling background
+- Simple and clean UI
 
 ---
 
 ## 🛠️ Built With
 
-* Unity
-* C#
-* Unity 2D Physics
-* TextMesh Pro
+- Unity
+- C#
+- Unity 2D Physics
+- TextMesh Pro
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
-Assets/
-└── Scripts/
-    ├── BirdController.cs
-    ├── PipeSpawner.cs
-    ├── PipeMovement.cs
-    ├── GameManager.cs
-    ├── ScoreManager.cs
-    └── ...
+FlappyBird/
+│
+├── Assets/
+│   └── Scripts/
+│       ├── Background.cs
+│       ├── Bird.cs
+│       ├── DestroyPipe.cs
+│       ├── Pipe.cs
+│       ├── PipeGenerator.cs
+│       ├── ScentTranswer.cs
+│       ├── ScoreDetct.cs
+│       └── UIManager.cs
+│
+├── Media/
+│   ├── GamePlay_hover.mp4
+│   ├── GamePlay_1.png
+│   ├── GamePlay_2.png
+│   ├── GamePlay_3.png
+│   └── GamePlay_4.png
+│
+└── README.md
 ```
 
 ---
 
 ## 📸 Screenshots
 
-Gameplay screenshots can be found in the repository.
+The **Media** folder contains gameplay screenshots showcasing the game.
+
+- GamePlay_1.png
+- GamePlay_2.png
+- GamePlay_3.png
+- GamePlay_4.png
+
+---
+
+## 🎥 Gameplay Preview
+
+A short gameplay preview is available in the repository:
+
+**📹 Media/GamePlay_hover.mp4**
+
+*(GitHub automatically displays MP4 videos directly inside the README when uploaded to the repository.)*
 
 ---
 
 ## 📚 What I Learned
 
-Through this project, I learned:
+Developing this project helped me understand:
 
-* Unity 2D workflow
-* Rigidbody2D physics
-* Collision detection
-* Object spawning
-* Scene and game state management
-* UI implementation
-* Writing structured C# scripts
-* Building complete gameplay loops
+- Unity 2D workflow
+- Rigidbody2D physics
+- Collision detection
+- Procedural obstacle spawning
+- Scene and game state management
+- UI implementation
+- Gameplay programming using C#
+- Building a complete game loop
+
+Although this was my first project, it became the foundation for every game I've built since.
 
 ---
 
 ## 🚀 Future Improvements
 
-* Improved visual effects
-* Better animations
-* Sound effects and background music
-* Mobile touch controls
-* High score saving
-* Additional game modes
-* Overall gameplay polish
+- Better visual polish
+- Improved animations
+- Sound effects & background music
+- Mobile touch controls
+- High score saving
+- More polished UI
+- Additional gameplay modes
 
 ---
 
 ## 🌱 A Small Memory
 
-Every developer has a first project.
+Every game developer has a project where everything begins.
 
-For me, that project was this **Flappy Bird Clone**, created on **26 May 2024**. Looking back at it reminds me how much there was to learn—and how exciting it was to see a simple bird flap through pipes for the first time.
+For me, that project was this **Flappy Bird Clone**, created on **26 May 2024**.
 
-This repository is more than just a beginner project; it's the starting point of my game development journey.
+Looking back at this project reminds me of the excitement of writing my first gameplay scripts, fixing my first bugs, and watching a simple bird successfully fly between pipes. While my skills have grown significantly since then, this project will always represent the first step of my game development journey.
 
 ---
 
-## 📄 License
+## 📄 Repository Notice
 
-This project is shared for **learning** and **portfolio** purposes only.
+This repository is intended for **learning** and **portfolio** purposes.
 
-The original **Flappy Bird** game concept belongs to its respective creators.
+Included in this repository:
+
+- ✅ C# Scripts
+- ✅ Gameplay Screenshots
+- ✅ Gameplay Preview Video
+
+The complete Unity project, assets, and third-party resources are intentionally not included.
+
+---
+
+## 📜 License
+
+This project is shared for educational and portfolio purposes only.
+
+The original **Flappy Bird** game concept and its associated intellectual property belong to their respective creators.
