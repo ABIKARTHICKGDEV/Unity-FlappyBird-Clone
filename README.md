@@ -72,13 +72,15 @@ FlappyBird/
 
 ## 📸 Screenshots
 
-The **Media** folder contains gameplay screenshots showcasing the game.
+<p align="center">
+  <img src="Media/GamePlay_1.png" width="45%">
+  <img src="Media/GamePlay_2.png" width="45%">
+</p>
 
-- GamePlay_1.png
-- GamePlay_2.png
-- GamePlay_3.png
-- GamePlay_4.png
-
+<p align="center">
+  <img src="Media/GamePlay_3.png" width="45%">
+  <img src="Media/GamePlay_4.png" width="45%">
+</p>
 ---
 
 ## 🎥 Gameplay Preview
